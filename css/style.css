@@ -1,0 +1,39 @@
+
+header{
+    background-color: green;  
+     height:50px; 
+     padding-top: 5px;
+     padding-left: 50%;
+
+}
+
+.lefter{
+    display: -webkit-flex;
+    -webkit-flex-direction:column;
+    background-color: red;  
+     padding-left: 50%;
+     padding-top: 5px;
+
+}
+.righter{
+    display:-webkit-flex;
+    -webkit-flex-direction:column;
+    background-color: blue;  
+     padding-left: 50%;
+     padding-top: 5px;
+
+}
+.middle{
+  display: -webkit-flex;
+  -webkit-flex-direction:column;
+    background-color: yellow;  
+     padding-left: 50%;
+     padding-top: 5px;
+}
+
+.bugg{
+  display: block;
+    background-color: black;  
+     padding-left: 50%;
+     padding-top: 5px;
+}
