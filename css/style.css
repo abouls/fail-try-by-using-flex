@@ -1,34 +1,48 @@
 
-header{
+.header{
     background-color: green;  
      height:50px; 
      padding-top: 5px;
-     padding-left: 50%;
+     padding-left: 48.5%;
 
+}
+
+
+body{
+
+}
+
+.ourbody{
+   border-style: solid  ;
+   display: flex;
+
+   justify-content: space-between;
 }
 
 .lefter{
-    display: -webkit-flex;
-    -webkit-flex-direction:column;
+    display: flex;
     background-color: red;  
-     padding-left: 50%;
-     padding-top: 5px;
+     align-items: center;
+
 
 }
 .righter{
-    display:-webkit-flex;
-    -webkit-flex-direction:column;
+    display: flex;
     background-color: blue;  
-     padding-left: 50%;
-     padding-top: 5px;
+     align-items: center;
+
+
 
 }
 .middle{
-  display: -webkit-flex;
-  -webkit-flex-direction:column;
+
+    display: flex;
     background-color: yellow;  
-     padding-left: 50%;
-     padding-top: 5px;
+    justify-content: center;
+
+    height: 200px;width: 1000px;
+     align-items: center;
+
 }
 
 .bugg{
