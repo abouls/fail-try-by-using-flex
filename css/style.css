@@ -10,7 +10,7 @@ header{
 
 .HolyGrail {
   display: flex;
-/*  min-height: 100vh;*/
+
   flex-direction: column;
  
 }
@@ -19,6 +19,7 @@ header{
 .HolyGrail-body{
    display: flex;
     flex: 1;
+      min-height: 100vh;
 
 
 }
@@ -53,7 +54,7 @@ header{
 
      align-items: center;
      flex:1;
-     height: 3vh;
+    
     overflow:auto;
 
 }
